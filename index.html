@@ -1,7 +1,149 @@
 <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brian Chau</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
 
-<html>
+<body>
+    <header class="header">
+        <a href="#" class="logo"><span>Brian Chau</span></a>
+        <ul class="nav-links">
+            <li>
+                <a href="#about">About</a>
+            </li>
+            <li>
+                <a href="#experience">Experience</a>
+            </li>
+            <li>
+                <a href="#projects">Projects</a>
+            </li>
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+        </ul>
+        <i class="fa-solid fa-bars" id="menu-icon"></i>
+    </header>
+
+
+    <section id="intro" class="intro">
+        <div class="intro-container">
+            <div class="greeting">
+                <h1>Hi, I'm Brian Chau</h1>
+                <h3> Welcome to my portfolio!</h3>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="about" class="about">
+        <div class="about-container">
+            <img src="images/headshot.JPG" id="headshot">
+            <div class="info-box">
+                <!-- about me -->
+                <div class="about-text">
+                    <ul>
+                        <li>I am a third year undergraduate student pursuing a Computer Engineering degree at the University of California, Irvine.</li>
+                        <li>description... </li>
+                        <li>description... </li>
+                        <li>description... </li>
+                    </ul>
+                </div>
+                <!-- buttons -->
+                <div class="btn-group">
+                    <div class="btn">
+                        Resume <i class="fa-regular fa-file"></i>
+                    </div>
+                    <div class="btn">
+                        LinkedIn <i class="fa-brands fa-linkedin"></i>
+                    </div>
+                    <div class="btn">
+                        Github <i class="fa-brands fa-github"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="experience" class="experience">
+        <h1 class="section-title">Experience</h1>
+        <div class="menu-container">
+            <!-- Vertical menu -->
+            <nav class="vertical-menu">
+                <ul>
+                    <li id="item1" class="menu-item">
+                        Hardware Engineer
+                        <p>HyperXite</p>
+                    </li>
+                    <li id="item2" class="menu-item">
+                        Engineering Intern
+                        <p>Redline Detection</p>
+                    </li>
+                    <li id="item3" class="menu-item">
+                        Business Applications Intern
+                        <p>R.D. Olson Construction</p>
+                    </li>
+                </ul>
+            </nav>
+
+            <!-- Content section -->
+            <div class="content-container">
+                <div id="content1" class="content-item">
+                    <h2>Hardware Engineer</h2>
+                    <h3>HyperXite</h3>
+                    <p>September 2023 - Present</p>
+                    <ul>
+                        <li>Developing a variable frequency drive as part of a high voltage system to convert DC to three phase AC power</li>
+                        <li>Designed VFD to provide up to 29kW of power to the linear induction motor of a scaled Hyperloop pod for a maximum speed of 40 miles per hour</li>
+                        <li>Designed and fabricated a control PCB in Altium Designer to interface microcontrollers and sensors with I2C
+                            protocol that measure current, temperature, acceleration, and angular velocity</li>
+                        <li>Integrating safety circuitry with a battery management system for transient circuit protection and emergency
+                            shutdown in the case of overcurrent</li>
+                        <li>Designed a low voltage system to power essential peripherals required for sensor operation and emergency stop</li>
+                        <li> Simulating circuits in LTSpice to model the characteristics of a single phase inverter and verify design</li>
+                    </ul>
+                </div>
+                <div id="content2" class="content-item">
+                    <h2>Engineering Intern</h2>
+                    <h3>Redline Detection</h3>
+                    <p>July 2024 - August 2024</p>
+                    <ul>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </div>
+                <div id="content3" class="content-item">
+                    <h2>Business Applications Intern</h2>
+                    <h3>R.D. Olson Construction</h3>
+                    <p>July 2023 - September 2023</p>
+                    <ul>
+                        <li>Handled workflow and budget revisions for over 20 construction projects</li>
+                        <li>Managed technical issues and software security</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
     
+    <script src="script.js"></script>
+</body>
 
 
 
