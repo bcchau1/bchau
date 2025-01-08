@@ -1,3 +1,4 @@
+// ===== WORK EXPERIENCE MENU ======
 // Get all the menu items
 const menuItems = document.querySelectorAll('.menu-item');
 
@@ -10,7 +11,7 @@ function showContent(selectedItem) {
     contentItems.forEach(content => content.classList.remove('active'));
 
     // Remove 'active' class from all menu items
-    menuItems.forEach(menuItem => menuItem.style.backgroundColor = '#333');
+    menuItems.forEach(menuItem => menuItem.style.backgroundColor = 'transparent');
 
     // Show the corresponding content
     const contentId = 'content' + selectedItem.id.charAt(selectedItem.id.length - 1);
@@ -18,7 +19,7 @@ function showContent(selectedItem) {
     selectedContent.classList.add('active');
 
     // Highlight the selected menu item
-    selectedItem.style.backgroundColor = '#575757';
+    selectedItem.style.backgroundColor = '#cddafd'; 
 }
 
 // Add event listeners to menu items
@@ -32,3 +33,22 @@ menuItems.forEach(item => {
 document.addEventListener('DOMContentLoaded', function () {
     showContent(menuItems[0]);  // Select and show the content of the first item
 });
+
+
+// ===== NAVIGATION MENU DROPDOWN ======
+const navLinks = document.querySelector('.nav-links');
+const dropDown = document.querySelector('#menu-icon');
+
+dropDown.onclick = () => {
+    navLinks.classList.toggle('active');
+}
+
+navLinks.onclick = () => {
+    navLinks.classList.remove('active');
+}
+
+
+
+
+  
+  
