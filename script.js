@@ -19,7 +19,7 @@ function showContent(selectedItem) {
     selectedContent.classList.add('active');
 
     // Highlight the selected menu item
-    selectedItem.style.backgroundColor = '#cddafd'; 
+    // selectedItem.style.backgroundColor = '#cddafd'; 
 }
 
 // Add event listeners to menu items

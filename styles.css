@@ -46,13 +46,13 @@ header {
     list-style: none;  
 }
 
-li a {
+.nav-links li a {
     position: relative;
     color: white;
     font-weight: 300;
 }
 
-li a::before {          /* puts the content before the li a element */
+.nav-links li a::before {          /* puts the content before the li a element */
     position: absolute;
     content: '';
     width: 0;
@@ -134,14 +134,15 @@ section {
     list-style: none;
 }
 
+
 #headshot {
     width: 25vw;
     border-radius: 50%;
 }
 
-#hyperxite {
+.text-link {
     color: black;
-    font-weight: 700;
+    font-weight: 600;
 }
 
 .info-box {
@@ -193,6 +194,7 @@ section {
 }
 
 .menu-item {
+    border: 1px solid black;
     margin-left: 15rem;
     padding: 1rem;
     width: 15rem;
@@ -207,9 +209,10 @@ section {
 
 /* Menu Content */
 .content-container {
+    border: 1px solid black;
     flex: 1;
     padding: 1rem 2rem;
-    background-color: #cddafd;
+    /* background-color: #cddafd; */
     border-radius: 1rem;
 }
 
@@ -262,6 +265,31 @@ section {
 }
 
 
+/* ===== CONTACT ===== */
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  border: 1px solid black;
+  margin: auto;
+  width: 50%;
+  padding: 1rem;
+  border-radius: 3rem;
+}
+
+.contact-form h3 {
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.personal-info-grid {
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+
 /* ===== SPIDERMAN ===== */
 #wrapper {
   position: relative;
@@ -270,11 +298,11 @@ section {
 }
 
 #spiderman {
-  -webkit-animation: swinganimation 3.5s infinite alternate;
+  /* -webkit-animation: swinganimation 3.5s infinite alternate;
   -moz-animation: swinganimation 3.5s infinite alternate;
   -ms-animation: swinganimation 3.5s infinite alternate;
   -o-animation: swinganimation 3.5s infinite alternate;
-  animation: swinganimation 3.5s infinite alternate;
+  animation: swinganimation 3.5s infinite alternate; */
   position: absolute;
   width: 12vw;
   height: 103px;

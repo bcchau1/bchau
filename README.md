@@ -1,2 +1,1 @@
-#Hello and welcome to my portfolio!
-This is my personal website I made using vanilla HTML, CSS, and JavaScript.
+My personal website using vanilla HTML, CSS, and JavaScript.
