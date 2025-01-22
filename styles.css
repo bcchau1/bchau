@@ -134,7 +134,6 @@ section {
     list-style: none;
 }
 
-
 #headshot {
     width: 25vw;
     border-radius: 50%;
@@ -266,6 +265,12 @@ section {
 
 
 /* ===== CONTACT ===== */
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
 .contact-form {
   display: flex;
   flex-direction: column;
@@ -289,6 +294,18 @@ section {
   font-weight: 300;
 }
 
+.contact-photo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5rem;
+}
+
+#gif {
+  border-radius: 5rem;
+  width: 15vw;
+}
+
 
 /* ===== SPIDERMAN ===== */
 #wrapper {
@@ -298,11 +315,11 @@ section {
 }
 
 #spiderman {
-  /* -webkit-animation: swinganimation 3.5s infinite alternate;
+  -webkit-animation: swinganimation 3.5s infinite alternate;
   -moz-animation: swinganimation 3.5s infinite alternate;
   -ms-animation: swinganimation 3.5s infinite alternate;
   -o-animation: swinganimation 3.5s infinite alternate;
-  animation: swinganimation 3.5s infinite alternate; */
+  animation: swinganimation 3.5s infinite alternate;
   position: absolute;
   width: 12vw;
   height: 103px;
