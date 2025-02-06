@@ -1,1 +1,1 @@
-My personal website using vanilla HTML, CSS, and JavaScript.
+Personal website with vanilla HTML, CSS, and JavaScript
